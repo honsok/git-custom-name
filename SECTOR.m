@@ -1,4 +1,4 @@
-function sector = SECTOR(V_alpha, V_beta)
+function [sector,N] = SECTOR(V_alpha, V_beta)
 %SECTOR  根据 αβ 分量判断 SVPWM 扇区（1..6）
 %   输入: V_alpha, V_beta - 标量
 %   输出: sector - 扇区编号，1 到 6。若无法判定返回 0
